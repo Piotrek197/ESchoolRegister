@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,EAAE,EAAE,EAAE,EAAE,CAAC;EACV,MAAM,EAAE,cAAc;EACtB,eAAe,EAAE,QAAQ;CAC5B",
+    "sources": [
+        "addgrade.scss"
+    ],
+    "names": [],
+    "file": "addgrade.css"
+}

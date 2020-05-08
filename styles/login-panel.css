@@ -1,0 +1,167 @@
+body {
+  background: url(../school.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: auto;
+}
+
+.login-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.85);
+  width: 23%;
+  height: 60%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.login-panel h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 40px 20px;
+  font-size: 24px;
+  color: #345abc;
+}
+
+.i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #777;
+}
+
+.i i {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+a {
+  font-size: 15px;
+  display: block;
+  text-align: right;
+  color: #777;
+  text-decoration: none;
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.login-panel .text-input {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 7% 93%;
+      grid-template-columns: 7% 93%;
+  margin: 20px 0;
+  padding: 3px 0;
+  border: 1px solid #345abc;
+  border-radius: 2px;
+  min-width: 200px;
+}
+
+.login-panel .is-invalid {
+  border: 1px solid red;
+}
+
+.text-input.focus > .i > i {
+  color: #345abc;
+}
+
+.text-input.focus > div > h5 {
+  top: -12px;
+  font-size: 15px;
+}
+
+.login-panel .text-input.one {
+  margin-top: 10px;
+}
+
+.login-panel .text-input.two {
+  margin-top: 10px;
+}
+
+.text-input > div {
+  position: relative;
+  height: 45px;
+}
+
+.text-input > div > h5 {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #777;
+  font-size: 18px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.text-input > div {
+  position: relative;
+  height: 45px;
+}
+
+.input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0.5rem 0.7rem;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.submit-btn {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #345abc;
+  padding: 14px 40px;
+  outline: none;
+  color: #345abc;
+  border-radius: 20px;
+  -webkit-transition: .25s;
+  transition: .25s;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #345abc;
+  color: #fff;
+}
+
+@media screen and (max-width: 1100px) {
+  .login-panel {
+    height: 380px;
+    width: 320px;
+  }
+}
+/*# sourceMappingURL=login-panel.css.map */

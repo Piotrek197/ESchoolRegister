@@ -1,0 +1,35 @@
+nav{
+    height: 50px;
+    background: #444;
+    margin-bottom: 50px;
+    text-align: center;
+    p{
+    width:auto;
+    margin-top: 8px;
+    margin-left:2%;
+        a{
+            font-size: 20px;
+            text-align: center;
+            color:#fff;
+            text-decoration:none;
+            transition: 0.25s;
+        }
+
+        a:hover{
+            color:#0f0;
+        }
+
+
+    }
+    .right:last-child {
+        margin-right:2%;
+    }
+}
+
+.left p {
+    float:left;
+}
+
+.right p{
+    float:right;
+}

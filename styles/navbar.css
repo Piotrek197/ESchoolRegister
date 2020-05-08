@@ -1,0 +1,38 @@
+nav {
+  height: 50px;
+  background: #444;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+nav p {
+  width: auto;
+  margin-top: 8px;
+  margin-left: 2%;
+}
+
+nav p a {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+nav p a:hover {
+  color: #0f0;
+}
+
+nav .right:last-child {
+  margin-right: 2%;
+}
+
+.left p {
+  float: left;
+}
+
+.right p {
+  float: right;
+}
+/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+table, th, td {
+  border: 1px solid #444;
+  border-collapse: collapse;
+}
+
+table {
+  min-width: 100%;
+  border: 2px solid #444;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  background: #aaa;
+}
+
+.subject-column {
+  width: 30%;
+}
+
+.grade-column {
+  width: 50%;
+}
+
+h4 {
+  font-size: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  color: #111;
+}
+
+table a {
+  text-decoration: none;
+  color: black;
+}
+
+table a:hover {
+  font-weight: bold;
+  color: #0f3;
+}
+
+.headerb {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.inputb {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#passb, #emailb {
+  margin-left: 10px;
+}
+
+.justify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+.btnb {
+  border: 0;
+  background: none;
+  text-align: center;
+  border: 2px solid #345abc;
+  padding: 14px 40px;
+  -webkit-transition: .1s;
+  transition: .1s;
+  cursor: pointer;
+}
+
+.btnb:hover {
+  background: #345abc;
+  color: #fff;
+}
+
+.textb {
+  text-align: justify;
+  padding: 10px 20px;
+}
+
+.begin-panel {
+  border: 2px solid #345abc;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.grades-panel {
+  width: 85%;
+  position: absolute;
+  left: 7.5%;
+}
+
+.details-panel {
+  width: 30%;
+  position: absolute;
+  left: 35%;
+}
+
+.begin-panel .center-all a {
+  text-decoration: none;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #345abc;
+  padding: 14px 40px;
+  color: #345abc;
+  -webkit-transition: .25s;
+  transition: .25s;
+  cursor: pointer;
+}
+
+.begin-panel .center-all a:hover {
+  background: #345abc;
+  color: white;
+}
+
+.begin-panel .center-all .btn-editgrade,
+#panel .btn {
+  text-decoration: none;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #345abc;
+  padding: 14px 40px;
+  color: #345abc;
+  -webkit-transition: .25s;
+  transition: .25s;
+  cursor: pointer;
+}
+
+.begin-panel .center-all .btn-editgrade:hover,
+#panel .btn:hover {
+  background: #345abc;
+  color: #fff;
+}
+
+.begin-panel .center-all h3 {
+  margin: 25px;
+}
+
+#button-a {
+  margin: 25px;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+#tableaddgrade {
+  min-width: 300px;
+  border: none;
+}
+
+@media (max-width: 600px) {
+  .begin-panel {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.btnadd {
+  height: 65px;
+}
+
+.center-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=style.css.map */
