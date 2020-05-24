@@ -41,9 +41,9 @@
             $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
         
             //Recipients
-            $mail->setFrom('testtest05516@gmail.com', 'Eschool');
+            $mail->setFrom('********************', 'Eschool');
             $mail->addAddress($emailTo);     // Add a recipient          // Name is optional
-            $mail->addReplyTo('no-reply@56lo.warszawa.com', 'No reply');
+            $mail->addReplyTo('*********************', 'No reply');
     
         
             // Content
@@ -55,7 +55,7 @@
                                 Jeśli nie prosiłeś o zmianę hasła, zignoruj tę wiadomość<br><br>
                                 Pozdrawiamy<br>
                                 Zespół Eschool<br>
-                                testtest05516@gmail.com";
+                                --email address--";
             $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
         
             $mail->send();
